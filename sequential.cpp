@@ -62,6 +62,12 @@ int main(int argc, const char * argv[]) {
     }
  
    std::cout<<error<<std::endl;
+   
+    for( int indx = 0; indx < N+1; ++indx )
+      {
+        delete array[indx];
+      }    
     delete [] array;
+    
     return 0;
 }
