@@ -1,1 +1,1 @@
-# Lax-F
+# Lax-Friedrichs
