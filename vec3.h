@@ -105,4 +105,22 @@ inline vec3 cross(const vec3 &u, const vec3 &v) {
 inline vec3 unit_vector(vec3 v) {
     return v / v.length();
 }
+/*inline vec3 rotate(double angle, vec3 Around) 
+{
+	double f1, f2, f3;
+	vec3 t1, t2;
+	
+	
+	f1 = (double)cos((double)angle);
+	f2 = (double)sin((double)angle);
+	t1 = Projection(&Around);
+	t2 = Around.Cross(this);
+	f3 = Dot(Around);
+	
+	return CVector3d((double)(f1*t1.x()+f2*t2.x()+f3*Around.x()),
+		(double)(f1*t1.y()+f2*t2.y()+f3*Around.y()),
+		(double)(f1*t1.z()+f2*t2.z()+f3*Around.z()));
+	
+}*/
+
 #endif
